@@ -4,3 +4,6 @@
 
 En la marquesa estuvimos todo el  dia, tomamos muchas fotos, volamos un papalote
 
+Me diverti mucho pero aprendi que debo llevar una chamarra por que hace mucho frio y que a los
+juegos no se suben personas de mas de 15
+
