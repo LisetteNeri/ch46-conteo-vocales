@@ -1,9 +1,10 @@
 console.log("Conteo de vocales");
+
 /**
- Encuentra el número de letras que eixten en el
- nombre
+ Encuentra el número de letras que existen en el
+ nombre indicado.
  @letra {string} letra a buscar
- @nombre {string} nombre a buscar la letra
+ @nombre {string} texto a buscar la letra
  return número de letras encontradas
 */
 function encontrarNumeroDeLetra( letra, nombre ) {    
@@ -15,4 +16,14 @@ function encontrarNumeroDeLetra( letra, nombre ) {
         }
     }
     return numeroDeLetras;
+}
+
+function leerValorDeNombre(){
+ const inputNombre = document.getElementById("nombre");
+ return inputNombre.value;
+}
+
+function manejoDelEventoDeInputNombre(){
+  const nombre = leerValorDeNombre();
+  console.log( nombre );
 }
